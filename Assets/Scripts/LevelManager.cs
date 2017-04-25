@@ -13,4 +13,9 @@ public class LevelManager : MonoBehaviour {
 		Application.Quit();
 	}
 	
+	public void LoadNextLevel(){
+//	int index from build settings
+		Application.LoadLevel(Application.loadedLevel + 1);
+	}
+	
 }
